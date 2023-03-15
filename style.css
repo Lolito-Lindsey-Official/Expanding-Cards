@@ -28,10 +28,30 @@ body {
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 25px;
-    color: #bdbdbd;
+    color: #ffffff;
     flex: 0.5;
     margin: 12px;
     position: relative;
     transition: flex 0.5s ease-in;
+}
+
+
+.panel h3 {
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+} 
+
+/*Expands picture when activated*/
+.panel.active {
+    flex: 5;
+}
+
+/*Shows bottom left photo title when activated*/
+.panel.active h3 {
+    opacity: 1;
 }
 
