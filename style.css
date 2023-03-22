@@ -61,6 +61,7 @@ body {
     .container {
         width: 100vw;
     }
+    
     /*Makes the fourth and fifth picture disappear*/
     .panel:nth-of-type(4), 
     .panel:nth-of-type(5)  {
